@@ -1,0 +1,40 @@
+{
+    "name": "@sandeepkapalawai/custom-button",
+    "module": "/dist/custom-button",
+    "description": " a demo component to ",
+    "version": "1.0.0",
+    "author": {
+        "name": "Sandeep Kapalawai",
+        "emaild": "sandeepkapalawai@gmail.com"
+    },
+    "homepage": "https:/github.com/sonusandeep/custom-button-header",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:sonusandeep/custom-button.git"
+    },
+    "license": "MIT",
+    "scripts": {
+        "build": "--webpack --config webppack.config.js",
+        "docs": "start-storybook -p 9001 -c .storybook",
+        "docs-build": "build-storybook -c .storybook -o docs"
+    },
+    "dependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.3.1",
+        "@babel/preset-react": "^7.0.0",
+        "@storybook/addon-info": "^4.1.11",
+        "@storybook/components": "^4.1.11",
+        "@storybook/react": "^4.1.11",
+        "babel-loader": "^8.0.5",
+        "clean-webpack-plugin": "^1.0.1",
+        "css-loader": "^2.1.0",
+        "node-sass": "^4.11.0",
+        "react": "^16.7.0",
+        "sass-loader": "^7.1.0",
+        "storybook-addon-jsx": "^6.0.0",
+        "style-loader": "^0.23.1",
+        "uglifyjs-webpack-plugin": "^2.1.1",
+        "webpack": "^4.29.0",
+        "webpack-cli": "^3.2.1"
+    }
+}
