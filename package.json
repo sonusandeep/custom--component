@@ -14,11 +14,11 @@
     },
     "license": "MIT",
     "scripts": {
-        "build": "--webpack --config webppack.config.js",
+        "build": "webpack --config webpack.config.js",
         "docs": "start-storybook -p 9001 -c .storybook",
-        "docs-build": "build-storybook -c .storybook -o docs"
-    },
-    "dependencies": {
+        "docs:build": "build-storybook -c .storybook -o docs"
+      },
+      "devDependencies": {
         "@babel/core": "^7.2.2",
         "@babel/preset-env": "^7.3.1",
         "@babel/preset-react": "^7.0.0",
@@ -36,5 +36,5 @@
         "uglifyjs-webpack-plugin": "^2.1.1",
         "webpack": "^4.29.0",
         "webpack-cli": "^3.2.1"
-    }
+      }
 }

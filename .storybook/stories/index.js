@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
+import {storiesOf,setAddon } from '@storybook/react';
 
-import CustomButtom from '../../src/index.js';
-import storiesOf from '@storybook/react';
+import CustomButton from '../../src/index';
 
-
-storiesOf('Custom button ', module)
-.addWithJSX('simple', () =><CustomButtom/>);
+ storiesOf("Custom Button", module)
+ .addWithJSX('simple', () => <CustomButton/>);
